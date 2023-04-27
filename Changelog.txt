@@ -1,0 +1,68 @@
+Official Stranded II Changelog by Unreal Software - www.unrealsoftware.de
+
+### Gold 1.0.0.1 - 12.03.2008
+
+ [FIXED] A bunch of translation issues
+ [FIXED] Red butterflies dropped too many insect parts
+ [FIXED] Tower Defense: Startsign was destructable
+ [FIXED] It was possible to store stuff in the bownet
+ [FIXED] loopmoveani did not affect vehicles 
+ [FIXED] Adventure: Crystal rock removed (3. island)
+ [FIXED] Adventure: Catching a parrot did not work after loading a savegame
+ [FIXED] Loading/saving bug with item in hand if type id>255
+ [FIXED] Items with invulnerability state do not rot anymore
+ [FIXED] Last row of items in the exchange screen was not visible
+ [FIXED] create event has not been executed in load or start events
+ [FIXED] copychilds/pastechilds -> copychildren/pastechildren
+ [FIXED] Files without inf extensions have been loaded as definitions
+ [FIXED] extendscript sometimes mixed up variables
+ [FIXED] Combination problems while player had many items
+ [FIXED] "Attack 2" was still available after dropping the item
+ [FIXED] Problems with positiong- and mapscript in editor
+ [FIXED] Impact-event has not been executed in some cases
+ [FIXED] seqcls has not been cancelled at the end of a sequence
+ [FIXED] no more shark/piranha attacks at beginning of random maps
+ [FIXED] progress-bar bug with more than 255 objects, units or items
+ [FIXED] randomcreate returned always 0
+ [FIXED] spawntimer returned 0 on multiple kill-events at the same time
+ [FIXED] Treehouse is now only buildable at full-grown trees
+ [FIXED] "healthchange" (definition) did not work on objects
+ [CHANGED] Special-potions do not disappear over night anymore
+ [CHANGED] Factor 100 with sin/cos/tan optional
+ [CHANGED] Blood activated by default (gore=1 in game.inf)
+ [CHANGED] Items are now listed depending on order of collection
+ [CHANGED] Moss spawns less mushrooms
+ [CHANGED] Some palms (type 4 and 7) deliver more logs
+ [CHANGED] Lions deliver more skins
+ [CHANGED] Turtles now deliver skin too
+ [CHANGED] Bananspalms spawn monkeys
+ [CHANGED] Icons improved
+ [CHANGED] slingshots can shoot teeth and claws
+ [CHANGED] Starfishes can be used as throwing stars (weapons)
+ [ADDED] Random events and characters on random islands
+ [ADDED] Animated state borders
+ [ADDED] Groups for buildings
+ [ADDED] Alignment parameter for "cscr_text"
+ [ADDED] Tooltip parameter for "cscr_text" and "cscr_image"
+ [ADDED] Additional mode for "projectile"
+ [ADDED] Trading in dialogues
+ [ADDED] Additional values for "getsetting"
+ [ADDED] Scriptcommand: buildsetup
+ [ADDED] Scriptcommand: rpos
+ [ADDED] Definitions: terrain_color_XXXXX (game.inf)
+ [ADDED] Definition: showemptybuildinggroups (game.inf)
+ [ADDED] Behaviour: killerbird (units)
+ [ADDED] Unit: transport monkey (trainable)
+ [ADDED] Unit: eagle
+ [ADDED] Object: big storage (buildable)
+ [ADDED] Object: garden (buildable)
+ [ADDED] Object: hammock (buildable)
+ [ADDED] Object: monkey school (buildable)
+ [ADDED] Object: palisade (buildable)
+ [ADDED] Object: gate (buildable)
+ [ADDED] Object: wood storage (buildable)
+ [ADDED] Object: stone storage (buildable)
+ [ADDED] Object: aerie
+ [ADDED] Item: claw spear
+ [REMOVED] Scriptcommand update button (in editor)
+
